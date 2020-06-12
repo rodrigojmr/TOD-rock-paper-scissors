@@ -1,6 +1,6 @@
 function playRound(playerSelection, computerSelection) {
   console.log(playerSelection, computerSelection);
-  document.getElementById("player-hand").src = playerSelection + ".svg";
+  document.getElementById("player-hand").src = './images/' + playerSelection + ".svg";
   if (playerSelection === computerSelection) {
     gameResult.textContent = "It's a tie!";
   } else {

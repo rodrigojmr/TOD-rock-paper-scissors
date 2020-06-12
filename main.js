@@ -39,14 +39,14 @@ function pause() {
 function computerPlay() {
   rand = Math.floor(Math.random() * 3);
   if (rand === 0) {
-    document.getElementById('computer-hand').src = '/images/Rock.svg';
+    document.getElementById('computer-hand').src = './images/Rock.svg';
     return "Rock"
   } else if (rand === 1) {
-    document.getElementById('computer-hand').src = '/images/Paper.svg';
+    document.getElementById('computer-hand').src = './images/Paper.svg';
     return "Paper"
   }
   else if (rand === 2) {
-    document.getElementById('computer-hand').src = '/images/Scissors.svg';
+    document.getElementById('computer-hand').src = './images/Scissors.svg';
     return "Scissors"
   }
 }

@@ -1,0 +1,65 @@
+.container {
+    width: 90vw;
+    margin: 10vh auto;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.heading {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.game {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.player-img {
+    width: 300px;
+    height: auto;
+}
+
+.hand {
+    width: 80px;
+    height: auto;
+}
+
+.vs {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+    outline: none;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active {
+    transform: translateY(1px);
+    border: 1px solid red;
+}
+
+p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
